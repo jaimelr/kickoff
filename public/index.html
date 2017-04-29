@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Buenard:700'>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+
+    <title>Kickoff Soccer</title>
+  </head>
+  <body>
+    <div ng-include = "'partials/navbar.html'">
+
+    <!-- Warming Up -->
+    <script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
+
+    <!--Video Section-->
+    <section class="content-section video-section">
+      <div class="pattern-overlay">
+        <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=1tnstHOhu_Q',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <img src="kickoff-soccer.png" alt="Kickoff Soccer logo">
+              <div class="col-md-4 pull-right">
+                <h1>Kickoff Soccer</h1>
+                <h3>La plataforma donde comienza</h3>
+              </div>
+	          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Video Section Ends Here-->
+
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type=text/javascript src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  </body>
+</html>
