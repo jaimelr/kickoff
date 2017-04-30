@@ -1,0 +1,338 @@
+
+.enjoy-css {
+  width: 250px;
+  height: 45px;
+  cursor: pointer;
+  margin: 0 auto;
+  border: .5px solid rgb(232, 238, 241);
+  border-radius: 28px;
+  font: normal 14px/28px "Advent Pro", Helvetica, sans-serif;
+  color: rgb(119, 126, 128);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 1px;
+  background: rgba(0,0,0,0);
+}
+
+/* enable absolute positioning */
+.enjoy-cssx {
+  width: 250px;
+  height: 45px;
+  border-radius: 28px;
+  font: normal 14px/28px "Advent Pro", Helvetica, sans-serif;
+  background: rgb(255, 255, 255);
+}
+
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 13px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.search-bar {
+  padding-top: 10px;
+}
+
+
+.carousel-control.left, .carousel-control.right {
+background-image:none !important;
+}
+.carousel-inner .item img {
+width:100%;
+height:100%;
+}
+.carousel-indicators {
+bottom:5px;
+left:10px;
+width:auto;
+padding:5px 25px 5px 25px;
+margin-left:0;
+background:rgba(0,0,0,0.7);
+}
+.carousel-indicators li {
+border-radius:0;
+width:8px;
+height:8px;
+background:#fff;
+}
+.carousel-indicators .active {
+width:10px;
+height:10px;
+background:#39b3d7;
+border-color:#39b3d7;
+}
+
+.carousel-control {
+background:    transparent;
+color:#fff;
+padding: 4px 0;
+width:26px;
+top:auto;
+left:auto;
+bottom:12px;
+opacity:0.85;
+}
+.carousel-control :hover {
+    padding:4px;
+	background:rgba(0,0,0,0.35);
+}
+.carousel-control.right {
+right:10px;
+}
+
+.carousel-control.left {
+right: 46px;
+}
+.carousel-caption {
+top:auto;
+width:auto;
+right:auto;
+bottom:60px;
+left:10px;
+padding:20px;
+background:rgba(0,0,0,0.70);
+text-align:left;
+height:auto;
+max-width:50%;
+
+}
+
+article{
+    background-color: #E0E0E0;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+figure .img-news{
+    width: 100%;
+    height: 100%;
+}
+.glyphicon-folder-open,
+.glyphicon-user,
+.glyphicon-calendar,
+.glyphicon-eye-open,
+.glyphicon-comment{
+    padding: 5px;
+}
+
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+body {
+padding: 60px 0px;
+background-color: rgb(220, 220, 220);
+}
+
+.event-list {
+list-style: none;
+font-family: 'Lato', sans-serif;
+margin: 0px;
+padding: 0px;
+}
+.event-list > li {
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 0px 5px rgb(51, 51, 51);
+box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+padding: 0px;
+margin: 0px 0px 20px;
+}
+.event-list > li > time {
+display: inline-block;
+width: 100%;
+color: rgb(255, 255, 255);
+background-color: rgb(197, 44, 102);
+padding: 5px;
+text-align: center;
+text-transform: uppercase;
+}
+.event-list > li:nth-child(even) > time {
+background-color: rgb(165, 82, 167);
+}
+.event-list > li > time > span {
+display: none;
+}
+.event-list > li > time > .day {
+display: block;
+font-size: 56pt;
+font-weight: 100;
+line-height: 1;
+}
+.event-list > li time > .month {
+display: block;
+font-size: 24pt;
+font-weight: 900;
+line-height: 1;
+}
+.event-list > li > img {
+width: 100%;
+}
+.event-list > li > .info {
+padding-top: 5px;
+text-align: center;
+}
+.event-list > li > .info > .title {
+font-size: 17pt;
+font-weight: 700;
+margin: 0px;
+}
+.event-list > li > .info > .desc {
+font-size: 13pt;
+font-weight: 300;
+margin: 0px;
+}
+.event-list > li > .info > ul,
+.event-list > li > .social > ul {
+display: table;
+list-style: none;
+margin: 10px 0px 0px;
+padding: 0px;
+width: 100%;
+text-align: center;
+}
+.event-list > li > .social > ul {
+margin: 0px;
+}
+.event-list > li > .info > ul > li,
+.event-list > li > .social > ul > li {
+display: table-cell;
+cursor: pointer;
+color: rgb(30, 30, 30);
+font-size: 11pt;
+font-weight: 300;
+    padding: 3px 0px;
+}
+.event-list > li > .info > ul > li > a {
+display: block;
+width: 100%;
+color: rgb(30, 30, 30);
+text-decoration: none;
+}
+.event-list > li > .social > ul > li {
+    padding: 0px;
+}
+.event-list > li > .social > ul > li > a {
+    padding: 3px 0px;
+}
+.event-list > li > .info > ul > li:hover,
+.event-list > li > .social > ul > li:hover {
+color: rgb(30, 30, 30);
+background-color: rgb(200, 200, 200);
+}
+.facebook a,
+.twitter a,
+.google-plus a {
+display: block;
+width: 100%;
+color: rgb(75, 110, 168) !important;
+}
+.twitter a {
+color: rgb(79, 213, 248) !important;
+}
+.google-plus a {
+color: rgb(221, 75, 57) !important;
+}
+.facebook:hover a {
+color: rgb(255, 255, 255) !important;
+background-color: rgb(75, 110, 168) !important;
+}
+.twitter:hover a {
+color: rgb(255, 255, 255) !important;
+background-color: rgb(79, 213, 248) !important;
+}
+.google-plus:hover a {
+color: rgb(255, 255, 255) !important;
+background-color: rgb(221, 75, 57) !important;
+}
+
+@media (min-width: 768px) {
+.event-list > li {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 120px;
+  padding: 0px;
+}
+.event-list > li > time,
+.event-list > li > img  {
+  display: inline-block;
+}
+.event-list > li > time,
+.event-list > li > img {
+  width: 120px;
+  float: left;
+}
+.event-list > li > .info {
+  background-color: rgb(245, 245, 245);
+  overflow: hidden;
+}
+.event-list > li > time,
+.event-list > li > img {
+  width: 120px;
+  height: 120px;
+  padding: 0px;
+  margin: 0px;
+}
+.event-list > li > .info {
+  position: relative;
+  height: 120px;
+  text-align: left;
+  padding-right: 40px;
+}
+.event-list > li > .info > .title,
+.event-list > li > .info > .desc {
+  padding: 0px 10px;
+}
+.event-list > li > .info > ul {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.event-list > li > .social {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: block;
+  width: 40px;
+}
+    .event-list > li > .social > ul {
+        border-left: 1px solid rgb(230, 230, 230);
+    }
+.event-list > li > .social > ul > li {
+  display: block;
+        padding: 0px;
+}
+.event-list > li > .social > ul > li > a {
+  display: block;
+  width: 40px;
+  padding: 10px 0px 9px;
+}
+}
+
+.rank {
+  margin-left: 0;
+  max-width: 33%;
+  max-height: 10%;
+}
+
+[class*='col-'] {
+  float: left;
+}
+.col-2-3 {
+  width: 66.66%;
+}
+.col-1-3 {
+  width: 33.33%;
+}
