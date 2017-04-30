@@ -107,6 +107,10 @@ font-size: 50px;
 {
 font-size: 20px;
 }
+.logotipo {
+  font-family: 'Raleway', sans-serif;
+}
+
 .affix
 {
 	width: 100%;
