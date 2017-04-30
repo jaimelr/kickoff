@@ -1,0 +1,30 @@
+.banner-wrap {
+  background-color: rgb( 48, 124, 48);
+  height: 500px;
+}
+
+.banner-image {
+  height: 500px;
+  background-image: url("../images/Shield.png");
+  background-size: 400px 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: visible;
+}
+
+.banner-description {
+  margin-top: 125px;
+}
+
+.banner-text {
+  color: white;
+  font-size: 2rem;
+}
+
+.content-wrap {
+  margin-top: 30px;
+}
+ .explanation .title-exp {
+   color: #2B2D42;
+   font-size: 3rem;
+ }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Buenard:700'>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"><!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Buenard:700'>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/retos-bar.css">
+    <link rel="stylesheet" href="css/banner-retos.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/table-retos.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+    <title>Retos</title>
+  </head>
+  <body>
+    <div class="nav-wrap">
+      <div ng-include = "'partials/navbar-logged.html'"></div>
+    </div>
+    <div class="banner-wrap">
+      <section class="container banner-wrap">
+        <div class="banner-image col-md-5"></div>
+        <div class="banner-description col-md-7">
+          <article class="banner-text">
+            <p class="title">¡Compite con nuestros retos!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <div class="content-wrap container">
+      <section class="col-md-3 explanation">
+        <p class="title-exp">El juego consiste en lo siguiente</p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </section>
+      <article class="col-md-9">
+        <p>Explora los retos que tenemos disponibles para ti.</p>
+        <div ng-include = "'partials/table-retos.html'"></div>
+      </article>
+    </div>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type=text/javascript src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        document.getElementById("r-btn").className("active");
+        console.log("Helo world");
+      }
+    </script>
+  </body>
+</html>
