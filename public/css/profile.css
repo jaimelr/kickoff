@@ -1,0 +1,121 @@
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.hovercard {
+    position: relative;
+    padding-top: 50px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.card.hovercard .cardheader {
+    background: url("http://www.chronicle.co.zw/wp-content/uploads/2016/11/soccer1.jpg") no-repeat scroll 0px 100% / cover transparent;
+    background-size: cover;
+    height: 400px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -150px;
+    margin-bottom: -150px;
+    padding-left: 13%;
+}
+
+.card.hovercard .avatar img {
+    width: 300px;
+    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 10px solid rgb(255,255,255);
+}
+
+.content {
+    margin-top: 10px;
+    height: 100%; 
+}
+.user_info {
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height:100%;
+    margin-left: 5%;
+    text-align: left;
+    width: 30%;
+    background-color: rgba(0,0,0,0.2);
+    display: inline-block;
+    -webkit-border-radius: 10px 10px; 
+}
+
+.user_videos {
+    display: inline-block;
+    background-color: rgba(0,0,0,0.2);
+    width: 53%;
+    height: 100%;
+    vertical-align: top;
+    margin-left: 10%;
+    padding-bottom: 2%;
+    -webkit-border-radius: 10px 10px; 
+}
+
+.user_video {
+    background-color: red;
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+div.stars {
+  width: 270px;
+  display: inline-block;
+}
+
+input.star { display: none; }
+
+label.star {
+  float: right;
+  padding: 10px;
+  font-size: 36px;
+  color: #444;
+  transition: all .2s;
+}
+
+input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+
+input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 20px #952;
+}
+
+input.star-1:checked ~ label.star:before { color: #F62; }
+
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}

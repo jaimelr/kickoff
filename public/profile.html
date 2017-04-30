@@ -1,20 +1,87 @@
 <!doctype html>
-<html ng-app>
+<html ng-app="App" ng-controller="MainController">
   <head>
+  <meta charset="utf-8">
   <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type=text/javascript src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="js/profile.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/profile.css">
+
   </head>
   
+  <body >
+    <div ng-include = "'partials/navbar.html'"> 
+    </div>
 
-  <body>
-    <div ng-include = "'partials/navbar.html'">
-     
-     <div class="rv" style="background-image: url(assets/img/iceland.jpg);"></div>
+    <div class = "card hovercard">
+      <div class = "cardheader">
+      </div>
+      <div class = "avatar">
+        <img alt = "" src = "https://instagram.fntr4-1.fna.fbcdn.net/t51.2885-19/s150x150/17818721_451237998550636_3915441926773407744_a.jpg">
+      </div>
+    </div>
 
+    <div class="content">
+      <div class = "user_info">
+        <h1>Matt Chandler</h1>
+        <h3>Vive en Leon</h3>
+        <h3>Nacio el dia 23 Abril 1991</h3>
+        <h3>Peso: 85 kg</h3>
+        <h3>Altura: 1.78</h3>
+        <h3>Defensa</h3>
+        <h3>Description: Jugador desde los 12 años</h3>
+      </div>
+      <div class="user_videos">
+        <div >
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/jwIHc9rz7yo" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="stars">
+            <form action="">
+              <input class="star star-5" id="star-5" type="radio" name="star"/>
+              <label class="star star-5" for="star-5"></label>
+              <input class="star star-4" id="star-4" type="radio" name="star"/>
+              <label class="star star-4" for="star-4"></label>
+              <input class="star star-3" id="star-3" type="radio" name="star"/>
+              <label class="star star-3" for="star-3"></label>
+              <input class="star star-2" id="star-2" type="radio" name="star"/>
+              <label class="star star-2" for="star-2"></label>
+              <input class="star star-1" id="star-1" type="radio" name="star"/>
+              <label class="star star-1" for="star-1"></label>
+            </form>
+          </div>
+        </div>
+        
+        <div >
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/8C1P1AlKvkE" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="stars">
+            <form action="">
+              <input class="star star-5" id="star-6" type="radio" name="star"/>
+              <label class="star star-5" for="star-6"></label>
+              <input class="star star-4" id="star-7" type="radio" name="star"/>
+              <label class="star star-4" for="star-7"></label>
+              <input class="star star-3" id="star-8" type="radio" name="star"/>
+              <label class="star star-3" for="star-8"></label>
+              <input class="star star-2" id="star-9" type="radio" name="star"/>
+              <label class="star star-2" for="star-9"></label>
+              <input class="star star-1" id="star-10" type="radio" name="star"/>
+              <label class="star star-1" for="star-10"></label>
+            </form>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
   </body>
 </html>
