@@ -1,7 +1,10 @@
+body{
+    background: #8999A8;
+}
 .card {
     padding-top: 20px;
     margin: 10px 0 20px 0;
-    
+
     border-top-width: 0;
     border-bottom-width: 2px;
     -webkit-border-radius: 3px;
@@ -48,7 +51,7 @@
 
 .content {
     margin-top: 10px;
-    height: 100%; 
+    height: 100%;
 }
 .user_info {
     padding-left: 2%;
@@ -60,7 +63,7 @@
     width: 30%;
     background-color: rgba(0,0,0,0.2);
     display: inline-block;
-    -webkit-border-radius: 10px 10px; 
+    -webkit-border-radius: 10px 10px;
 }
 
 .user_videos {
@@ -71,7 +74,7 @@
     vertical-align: top;
     margin-left: 10%;
     padding-bottom: 2%;
-    -webkit-border-radius: 10px 10px; 
+    -webkit-border-radius: 10px 10px;
 }
 
 .user_video {
