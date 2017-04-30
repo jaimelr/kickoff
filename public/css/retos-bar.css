@@ -1,0 +1,7 @@
+.nav-wrap {
+  position:fixed;
+  top: 0px;
+  z-index: 1;
+  background-color: rgb(48, 124, 48);
+  height: 50px;
+}
